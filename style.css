@@ -567,12 +567,16 @@ html {
   top: 0px;
 }
 
-.left-0 {
-  left: 0px;
+.right-\[12px\] {
+  right: 12px;
 }
 
-.right-0 {
-  right: 0px;
+.left-\[-2rem\] {
+  left: -2rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .mx-16 {
@@ -583,16 +587,6 @@ html {
 .mx-7 {
   margin-left: 1.75rem;
   margin-right: 1.75rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .ml-10 {
@@ -611,20 +605,16 @@ html {
   margin-top: 1rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .h-12 {
   height: 3rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-8 {
-  height: 2rem;
 }
 
 .h-10 {
@@ -635,25 +625,39 @@ html {
   width: 6rem;
 }
 
-.w-max {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
 .w-72 {
   width: 18rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .rounded-3xl {
   border-radius: 1.5rem;
 }
 
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .border-2 {
+  border-width: 2px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[2px\] {
   border-width: 2px;
 }
 
@@ -667,7 +671,7 @@ html {
 }
 
 .border-prim11 {
-  border-color: hsl(0, 36%, 70% 0.4);
+  border-color: hsl(0, 36%, 70%, 0.4);
 }
 
 .bg-prim1 {

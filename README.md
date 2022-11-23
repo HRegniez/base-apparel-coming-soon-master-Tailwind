@@ -76,7 +76,13 @@ const proudOfThisFunc = () => {
 ### Continued development
 
 - Styles to finish
+  - button gradient instead of 'prim1' as background color
+  https://www.w3schools.com/css/css3_gradients.asp
+  https://tailwindcss.com/docs/background-image
+
 - JS to start
+
+**Look into form validation styling
 
 
 ### Useful resources
